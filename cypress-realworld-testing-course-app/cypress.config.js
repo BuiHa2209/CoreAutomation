@@ -1,0 +1,26 @@
+import { defineConfig } from "cypress";
+
+export default defineConfig({
+  projectId: '1x43xj',
+  e2e: {
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+    },
+  },
+});
+module.exports = {
+  e2e: {
+    setupNodeEvents(on, config) {
+      require("cypress-localstorage-commands/plugin")(on, config);
+      return config;
+    },
+  },
+};
+module.exports = {
+  e2e: {
+    setupNodeEvents(on, config) {
+      require("cypress-localstorage-commands/plugin")(on, config);
+      return config;
+    },
+  },
+};

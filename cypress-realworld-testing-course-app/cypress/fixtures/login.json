@@ -1,0 +1,28 @@
+{
+    "url" : "http://10.100.36.131/#/identity-login",
+    "username1":"#email",
+    "password1":"#password",
+    "btnlogin1":"button[type=\"submit\"]",
+    "datapass":[
+        {
+            "username":"admin@scaleaq.com",
+            "password":"admin"
+        }],
+    "datafail":[
+        
+            {
+                "username":"admin@scaleaq.com@",
+                "password":"admin"
+            },
+            {
+                "username":"admin1@scaleaq.com",
+                "password":"admin"
+            },
+            {
+                "username":"admin@scaleaq.comk",
+                "password":"admin1"
+            }
+    ]
+
+
+}
